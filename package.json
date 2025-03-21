@@ -1,11 +1,11 @@
 {
-  "name": "first-team-project",
+  "name": "project-first-teamwork",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/first-team-project/",
+    "build": "vite build --base=/project-first-teamwork/",
     "preview": "vite preview"
   },
   "devDependencies": {
