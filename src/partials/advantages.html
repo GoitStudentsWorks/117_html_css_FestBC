@@ -1,6 +1,6 @@
 <section class="advantages">
     <h2 class="visually-hidden">Advantages of Yacht Rental</h2>
-    <div class="advantages-wrapper">
+    <div class="advantages-wrapper container">
         <div class="advantages-text-container">
             <ol class="advantages-list">
                 <li class="advantages-item">
@@ -13,7 +13,7 @@
                 </li>
                 <li class="advantages-item">
                     <span class="number">03</span>
-                    <p class="advantages-text">Sightseeing tours: take a shore or island tour, enjoy the views and sunsets from the water </p>
+                    <p class="advantages-text">Sightseeing tours: take a shore or island tour, enjoy the views and sunsets from the water</p>
                 </li>
                 <li class="advantages-item">
                     <span class="number">04</span>
@@ -22,7 +22,12 @@
             </ol>
         </div>
         <div class="advantages-image-container">
-            <img src="/img/advantages/yacht-deck.webp" alt="Luxury yacht deck" width="540" height="424">
+            <picture>
+                 <source srcset="/img/advantages/ydmob1.webp 1x, /img/advantages/ydmob2.webp 2x" media="(max-width: 767px)">
+                 <source srcset="/img/advantages/ydtab1.webp 1x, /img/advantages/ydtab2.webp 2x" media="(min-width: 768px)">
+                 <source srcset="/img/advantages/yacht-deck2.webp" media="(min-width: 1200px)"> 
+             <img src="/img/advantages/yacht-deck.webp" alt="Luxury yacht deck" width="432" height="424">
+            </picture>
         </div>
     </div>
 </section>
