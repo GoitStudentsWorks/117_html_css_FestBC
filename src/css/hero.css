@@ -2,7 +2,7 @@
 .hero {
   padding-top: 198px;
   padding-bottom: 243px;
-  max-width: 335px;
+  max-width: 320px;
   margin: 0 auto;
   background-image: linear-gradient(
       360deg,
@@ -83,16 +83,11 @@
   }
 
   .hero-tittle {
-    font-weight: 500;
     font-size: 70px;
-    line-height: 1;
-    letter-spacing: -0.02em;
     max-width: 704px;
-    margin-bottom: 24px;
   }
 
   .hero-text {
-    font-weight: 300;
     font-size: 16px;
     line-height: 1.4;
     max-width: 597px;
@@ -133,7 +128,6 @@
   .hero-tittle {
     font-size: 80px;
     max-width: 1001px;
-    margin-bottom: 24px;
   }
 }
 /* #endregion Hero */
