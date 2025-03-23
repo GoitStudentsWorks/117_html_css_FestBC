@@ -1,6 +1,6 @@
 /* #region Hero */
 .hero {
-  padding-top: 198px;
+  padding-top: 260px;
   padding-bottom: 243px;
   max-width: 320px;
   margin: 0 auto;
@@ -66,7 +66,7 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    padding-top: 200px;
+    padding-top: 280px;
     padding-bottom: 215px;
     max-width: 768px;
     margin: 0 auto;
@@ -109,7 +109,7 @@
 
 @media screen and (min-width: 1280px) {
   .hero {
-    padding-top: 155px;
+    padding-top: 235px;
     padding-bottom: 180px;
     max-width: 1280px;
     margin: 0 auto;
