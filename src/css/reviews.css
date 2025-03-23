@@ -1,1 +1,174 @@
-.replace-me-with-your-code-pleading-face {}
+/* === REVIEWS SECTION === */
+.reviews {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.reviews-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #11131F;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.reviews-subtitle {
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: rgba(17, 19, 31, 0.4);
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.reviews-card {
+  padding: 32px 8px;
+  background-color: #FBFBFB;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.reviews-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+
+.reviews-name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #11131F;
+  margin-bottom: 16px;
+}
+
+.reviews-text {
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: rgba(17, 19, 31, 0.4);
+}
+
+/* Утилита для скрытия элементов */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Стили для планшета (от 768px) */
+@media only screen and (min-width: 768px) {
+  .reviews {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    gap: 75px;
+  }
+
+  .reviews-title {
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 25px;
+    max-width: 704px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .reviews-subtitle {
+    font-size: 14px;
+    line-height: 1.29;
+    max-width: 571px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  .reviews-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .reviews-card {
+    width: 336px;
+    height: auto;
+    padding: 32px 8px;
+  }
+
+  /* Показываем скрытые элементы на планшете */
+  .reviews-card.visually-hidden {
+    position: static;
+    width: 336px;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    clip-path: none;
+    white-space: normal;
+  }
+}
+
+/* Стили для десктопа (от 1280px) */
+@media only screen and (min-width: 1280px) {
+  .reviews {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .reviews-title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 16px;
+    max-width: none;
+  }
+
+  .reviews-subtitle {
+    font-size: 16px;
+    line-height: 1.4;
+    max-width: 680px;
+    margin-bottom: 64px;
+  }
+
+  .reviews-list {
+    gap: 24px;
+    margin-top: 0;
+  }
+
+  .reviews-card {
+    width: 320px;
+    padding: 32px 28px;
+    box-sizing: border-box;
+  }
+
+  .reviews-avatar {
+    margin-bottom: 16px;
+  }
+
+  .reviews-name {
+    margin-bottom: 8px;
+  }
+}
