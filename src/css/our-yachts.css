@@ -1,1 +1,135 @@
-.replace-me-with-your-code-pleading-face {}
+/* общие настройки контейнера */
+.container {
+    max-width: 335px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.our-yachts-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+/* общие настройки контейнера */
+
+/* настройки заголовка */
+.our-yachts-container h2{
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    color: #FBFBFB;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+}
+
+/* конец-настройки заголовка */
+
+/* настройки таблиц яхт */
+.our-yachts-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* заголовок карточки */
+.yacht-header {
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    color: #1B414B;
+    padding: 0 16px;
+}
+
+.yacht-header span{
+    opacity: 40%;
+}
+/* конец-заголовок карточки */
+
+/* настройка лишек */
+.our-yachts-item {
+    margin: 10px;
+    padding: 16px;
+    min-width: 100%;
+    min-height: 480px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.our-yachts-image {
+    border-radius: 24px;
+    width: 100%;
+    height: 240px;
+}
+
+
+.yacht-details-block{
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+
+.detail{
+    font-size: 500;
+    font-weight: 14px;
+    letter-spacing: 0.03em;
+    opacity: 40%;
+}
+
+.detail-details-param{
+    font-size: 500;
+    font-weight: 14px;
+    letter-spacing: 0.03em;
+    color: #040306;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/* конец-настройка лишек */
+
+/* настройка кнопки-ссылки */
+.yacht-rental-button {
+    background-color: #0E1823;
+    color: #FFFFFF;
+    border-radius: 15px;
+    padding: 14px 32px;
+    font-size: 500;
+    font-weight: 14px;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    border: 1px solid #FBFBFB;
+    margin: 0 auto;
+}
+
+.yacht-rental-button:hover {
+    background-color: #1B414B;
+}
+
+.yacht-rental-button:active {
+    background-color: #FBFBFB;
+    color: #1B414B;
+}
+
+/* конец-настройка кнопки-ссылки */
