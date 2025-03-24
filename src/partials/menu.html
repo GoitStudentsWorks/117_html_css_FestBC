@@ -1,43 +1,52 @@
 <!-- Replace me with your code. 🥺 -->
 <!-- is-open -->
-<div class="conteiner conteiner-mobile-menu">
-    <div>
-        <p class="mobile-paragraf">yachtjet</p>
-        <button class="menu-close-batton" type="button">  <svg class="close-batton-svg" width="16" height="16">
-            <!-- <use href="./images/icons.svg#icon-close"></use>  додати спрайт-->
+<div class=" container-mobile-menu is-open">
+    <div class="container-mobile-menu-header">
+        <a class="mobile-paragraf" href="/">yachtjet</a>
+        <button class="menu-close-button" type="button"> 
+             <svg class="close-button-svg" 
+            width="16" height="16">
+            <use href="/img/sprite.svg#icon-close"></use>  
           </svg></button>
               </div>
-              <nav>
+              <div class="container-nav">
+              <nav class="nav-mobille-menu">
                 <ul class="navigation-menu">
-                  <li><a href="about.html" class="nav-button">ABOUT</a></li>
-                  <li><a href="yachts.html" class="nav-button">YACHTS</a></li>
-                  <li><a href="reviews.html" class="nav-button">REVIEWS</a></li>                  
+                  <li>
+                    <button class="nav-button-menu nav-button-menu-about" onclick="location.href='#about-us'" data-modal-close >ABOUT</button>
+                  </li>
+                  <li>
+                    <button class="nav-button-menu" onclick="location.href='#our-yachts'" data-modal-close >YACHTS</button>
+                  </li>
+                  <li>
+                    <button class="nav-button-menu" onclick="location.href='#reviews'" data-modal-close>REVIEWS</button>
+                  </li>
                 </ul>
               </nav>
-              <div class="conteiner-icon-list">
+            </div>
+              <div class="container-icon-list">
                 <ul class="icon-list">
                   <li class="icon-item">
-                    <a href="" class="icon-link">
-                      <svg class="icon" width="19" height="19">
-                        <use href="./images/icons.svg#instagram"></use>
+                    <a href=" https://www.instagram.com/goitclub/ " class="icon-link">
+                      <svg class="icon-social-media" width="19" height="19">
+                        <use href="/img/sprite.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="icon-item">
-                    <a href="" class="icon-link">
-                      <svg class="icon" width="19" height="19">
-                        <use href="./images/icons.svg#youtube"></use>
+                    <a href="https://www.youtube.com/c/GoIT " class="icon-link">
+                      <svg class="icon-social-media" width="19" height="19">
+                        <use href="/img/sprite.svg#icon-youtube"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="icon-item">
-                    <a href="" class="icon-link">
-                      <svg class="icon" width="19" height="19">
-                        <use href="./images/icons.svg#facebook"></use>
+                    <a href="https://www.facebook.com/goITclub/  " class="icon-link">
+                      <svg class="icon-social-media" width="19" height="19">
+                        <use href="/img/sprite.svg#icon-facebook"></use>
                       </svg>
                     </a>
-                  </li>
-                 
+                  </li>                 
                 </ul>
               </div>
 </div>
