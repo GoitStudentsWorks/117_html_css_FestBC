@@ -4,13 +4,12 @@
     margin: 0 auto;
     padding: 0 auto;
 }
-
-.our-yachts-container {
+.our-yachts-container{
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
+
 /* общие настройки контейнера */
 
 /* настройки заголовка */
@@ -20,7 +19,6 @@
     letter-spacing: 0.03em;
     color: #FBFBFB;
     margin: 0 auto;
-    padding: 0 auto;
     text-align: center;
 }
 
@@ -30,6 +28,7 @@
 .our-yachts-list {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 36px;
 }
 
 /* заголовок карточки */
@@ -54,15 +53,13 @@
 .our-yachts-item {
     margin: 10px;
     padding: 16px;
-    min-width: 100%;
+    width: 310px;
     min-height: 480px;
     background-color: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 32px;
 }
 
@@ -80,6 +77,11 @@
     padding: 0 16px;
 }
 
+.yacht-details-block ul{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
 
 .detail{
     font-size: 500;
@@ -88,14 +90,27 @@
     opacity: 40%;
 }
 
-.detail-details-param{
+.yacht-details-param{
     font-size: 500;
     font-weight: 14px;
     letter-spacing: 0.03em;
     color: #040306;
 }
 
-.visually-hidden {
+.visually-hidden-tablet {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.visually-hidden-tablet-descktop{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -115,12 +130,11 @@
     color: #FFFFFF;
     border-radius: 15px;
     padding: 14px 32px;
-    font-size: 500;
-    font-weight: 14px;
+    font-size: 14px;
+    font-weight: 500;
     letter-spacing: 0.03em;
     cursor: pointer;
     border: 1px solid #FBFBFB;
-    margin: 0 auto;
 }
 
 .yacht-rental-button:hover {
@@ -133,3 +147,35 @@
 }
 
 /* конец-настройка кнопки-ссылки */
+
+/* медиа для планшета */
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .our-yachts{
+        padding: 0 32px;
+    }
+
+    .our-yachts-container h2 {
+        font-size: 48px;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        color: #FBFBFB;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 645px;
+    }
+    .visually-hidden-tablet{
+        overflow: visible;
+    }
+
+    .our-yachts-list {
+        width: 100%;
+        flex-direction: row;
+    }
+}
+
+/* конец-медиа для планшета */
