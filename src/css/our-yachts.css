@@ -22,6 +22,14 @@
     text-align: center;
 }
 
+.our-yachts-line{
+    position: absolute;
+    color: #040306;
+    opacity: 40%;
+    width: 272px;
+    margin-top: 303px;
+    margin-left: 32px;
+}
 /* конец-настройки заголовка */
 
 /* настройки таблиц яхт */
@@ -51,6 +59,7 @@
 
 /* настройка лишек */
 .our-yachts-item {
+    position: relative;
     margin: 10px;
     padding: 16px;
     width: 310px;
@@ -150,6 +159,10 @@ display: none;
     .our-yachts-list {
         width: 100%;
         flex-direction: row;
+    }
+
+    .our-yachts-item {
+        width: 350px;
     }
 }
 
