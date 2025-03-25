@@ -3,10 +3,6 @@
   padding: 0 20px;
 }
 
-.rent-yacht-section {
-  background-color: #1b414b;
-}
-
 .rent-yacht-content {
   margin-bottom: 80px;
 }
@@ -105,8 +101,8 @@
   align-items: center;
   justify-content: center;
 
+  border: none;
   border-radius: 15px;
-  padding: 14px 44px;
   min-width: 122px;
   height: 46px;
   background: #1b414b;
@@ -124,6 +120,11 @@
 .rent-yacht-btn:focus {
   background-color: #fbfbfb;
   color: #1b414b;
+}
+
+.rent-yacht-image picture,
+.rent-yacht-image img {
+  border-radius: 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -166,7 +167,8 @@
   }
 
   .rent-yacht-btn {
-    min-width: 192px;
+    min-width: 194px;
+    height: 56px;
     padding: 18px 75px;
     font-size: 18px;
     line-height: 1.1;
