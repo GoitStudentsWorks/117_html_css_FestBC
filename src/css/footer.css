@@ -44,16 +44,17 @@
 }
 
 .footer-nav-link {
-  color: rgba(251, 251, 251, 0.7);
+  color: #fbfbfb;
   text-decoration: none;
   font-size: 14px;
-  transition: color 250ms ease-in-out;
+  transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
   text-transform: uppercase;
 }
 
 .footer-nav-link:hover,
 .footer-nav-link:focus {
-  color: #FBFBFB;
+  color: #1b414b;
+  background-color: #fbfbfb;
 }
 
 /* Socials */
@@ -79,6 +80,8 @@
   width: 24px;
   height: 24px;
   border-radius: 6px;
+
+  transition: opacity 250ms ease-in-out;
 }
 
 .footer-socials-link:hover,
