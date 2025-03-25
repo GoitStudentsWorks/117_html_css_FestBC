@@ -11,8 +11,8 @@
       rgba(17, 19, 31, 0.8) 98.27%
     ),
     image-set(
-      url(../img/hero/mobile-bg-img.webp) 1x,
-      url(../img/hero/mobile-bg-img2x.webp) 2x
+      url(../img/hero/mobile-img.webp) 1x,
+      url(../img/hero/mobile-img2x.webp) 2x
     );
   background-size: cover;
   background-repeat: no-repeat;
@@ -76,8 +76,8 @@
         rgba(17, 19, 31, 0.8) 98.27%
       ),
       image-set(
-        url(../img/hero/tablet-bg-img.webp) 1x,
-        url(../img/hero/tablet-bg-img2x.webp) 2x
+        url(../img/hero/tablet-img.webp) 1x,
+        url(../img/hero/tablet-img2x.webp) 2x
       );
   }
 
@@ -118,8 +118,8 @@
         rgba(17, 19, 31, 0.8) 98.27%
       ),
       image-set(
-        url(../img/hero/desktop-bg-img.webp) 1x,
-        url(../img/hero/desktop-bg-img2x.webp) 2x
+        url(../img/hero/desktop-img.webp) 1x,
+        url(../img/hero/desktop-img2x.webp) 2x
       );
   }
 
