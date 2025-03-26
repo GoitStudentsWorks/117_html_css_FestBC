@@ -27,16 +27,16 @@
     position: absolute;
     color: #040306;
     opacity: 40%;
-    width: 272px;
+    width: 246px;
     margin-top: 303px;
-    margin-left: 32px;
+    margin-left: 16px;
 }
 /* конец-настройки заголовка */
 
 /* настройки таблиц яхт */
 .our-yachts-list {
     display: flex;
-    margin-bottom: 36px;
+    margin-bottom: 40px;
     justify-content: center;
 }
 
@@ -51,6 +51,16 @@
     letter-spacing: 0.03em;
     color: #1B414B;
     padding: 0 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.yacht-header p{
+    max-width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .yacht-header span{
@@ -130,8 +140,13 @@ display: none;
 }
 
 .yacht-rental-button:hover {
-    background-color: #1B414B;
+    background-color: #FBFBFB;
     color: #1b414b;
+}
+
+.yacht-rental-button:focus {
+    background-color: #1b414b;
+    color: #FBFBFB;
 }
 
 /* конец-настройка кнопки-ссылки */
@@ -143,9 +158,10 @@ display: none;
         margin: 0 auto;
     }
 
-.our-yachts-container h2 {
-    margin-top: 150px;
-}
+
+    .our-yachts-container h2 {
+        margin-top: 150px;
+    }
 
     .our-yachts{
         padding: 0 32px;
@@ -169,6 +185,9 @@ display: none;
     .our-yachts-item {
         width: 350px;
     }
+    .our-yachts-line {
+        width: 268px;
+    }
 }
 
 /* конец-медиа для планшета */
@@ -180,12 +199,19 @@ display: none;
     margin: 0 auto;
 }
 
+    .our-yachts-container h2 {
+        margin-top: 150px;
+    }
+
 .visually-hidden-descktop {
     display: flex;
 }
  
 .our-yachts-item{
     width: 351px;
+}
+.our-yachts-line {
+    width: 287px;
 }
 }
 /* конец-медиа для десктопа */
