@@ -48,7 +48,7 @@
     justify-content: space-between;
     font-size: 14px;
     font-weight: 500;
-    letter-spacing: 0.03em;
+
     color: #1B414B;
     padding: 0 16px;
     overflow: hidden;
@@ -57,7 +57,8 @@
 }
 
 .yacht-header p{
-    max-width: 150px;
+    letter-spacing: -0.045em;
+    max-width: 140px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -65,6 +66,7 @@
 
 .yacht-header span{
     opacity: 40%;
+    letter-spacing: 0.03em;
 }
 /* конец-заголовок карточки */
 
