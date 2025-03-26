@@ -24,9 +24,17 @@
     position: absolute;
     color: #040306;
     opacity: 10%;
-    width: 246px;
     margin-top: 303px;
     margin-left: 16px;
+    width: 271px;
+}
+
+.yachts-line-width{
+    width: 228px;
+}
+
+.yachts-mobile-line{
+    width: 228px;
 }
 /* конец-настройки заголовка */
 
@@ -40,18 +48,21 @@
 /* заголовок карточки */
 .yacht-header {
     min-width: 100%;
+    padding: 0 16px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
     font-weight: 500;
-
     color: #1B414B;
-    padding: 0 16px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+.yacht-header-padding{
+    padding: 0 12px 0 16px;
 }
 
 .yacht-header p{
@@ -166,7 +177,6 @@ display: none;
         margin: 0 auto;
     }
 
-
     .our-yachts-container h2 {
         margin-top: 150px;
     }
@@ -194,9 +204,14 @@ display: none;
     .our-yachts-item {
         width: 350px;
     }
-    .our-yachts-line {
-        width: 268px;
-    }
+    .yachts-line-width{
+    width: 256px;
+}
+
+.yachts-mobile-line{
+    width: 260px;
+
+}
 }
 
 /* конец-медиа для планшета */
@@ -207,7 +222,6 @@ display: none;
      max-width: 1280px;
     margin: 0 auto;
 }
-
     .our-yachts-container h2 {
         margin-top: 150px;
     }
@@ -223,8 +237,14 @@ display: none;
 .our-yachts-item{
     width: 351px;
 }
-.our-yachts-line {
-    width: 287px;
+
+.yachts-line-width {
+    width: 271px;
+    }
+
+.yachts-mobile-line {
+    width: 275px;
+
 }
 }
 /* конец-медиа для десктопа */
